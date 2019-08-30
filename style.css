@@ -1,0 +1,238 @@
+body{
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #FBF7F5;
+    margin: 0px;
+    background-image: url('img/peytoLake-min.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);  
+    position: fixed;
+}
+
+header h1{
+    font-size: 48px;
+    font-family: 'Brush Script MT', 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#menuBtn{
+    width: 100%;
+    background-color: #00baba;
+    height: 30px;
+    font-size: 17px;
+}
+
+#menuBtn:hover{
+    cursor: pointer;
+    background-color: #00f8f8;
+}
+
+#menuBtn:active{
+    background-color: #003E3E
+
+}
+
+header h1, ul{
+    background: -webkit-linear-gradient(#00f8f8, lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+nav{
+    display: none;
+    width: 100%;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    font-size: 17px;
+    list-style: none;
+    padding: 15px;
+}
+
+nav a:hover{
+    background: -webkit-linear-gradient( lightgreen, #00f8f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#main{
+    padding-top: 200px;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 50px;
+}
+
+.container-1 h3{
+    font-family: 'Helvetica Neue';
+}
+
+.container-1 h4{
+    font-family: 'Brush Script MT', 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+#prof-pic{
+    height: 320px;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.container-2 h1,
+.container-3 h1,
+.container-4 h1{
+    font-family: 'Brush Script MT', 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+.opaque{
+    background-color: rgba(0,0,0,0.5);
+    padding: 35px;
+    border-radius: 2%;
+}
+
+.opaque h1{
+    text-align: center;
+}
+
+
+
+#about p{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0,0,0,0.1);
+    width: 95%;
+    max-height: 350px;
+    min-height: 350px;
+    border-radius: 5%;
+    margin-bottom: 25px;
+}
+
+.card:hover{
+    background-color: #007c7c;
+}
+
+.card img{
+    min-height: 200px;
+    width: 100%;
+}
+
+.card p{
+    margin: 15px
+}
+
+.socialLinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.socialLinks img{
+    width: 100px;
+    height: 100px;  
+    margin: 25px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+a:visited{
+    color: grey;
+}
+
+.bgc-black{
+    background-color: black;
+}
+
+.bgc-slate-grey{
+    background-color: slategray;
+}
+
+
+
+@media (min-width: 654px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+
+    header h1{
+        width: 200px;
+    }
+
+    nav{
+        margin-bottom: 0px;
+        width: 415px;
+        padding-right: 20px;
+        display: block;
+    }
+    
+    ul{
+        flex-direction: row;
+        justify-content: flex-end;   
+        margin-bottom: 0px;
+        overflow: none;
+    }
+
+    #menuBtn{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 740px){
+    #card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    margin-right: 10px;
+    }
+
+    .card{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
