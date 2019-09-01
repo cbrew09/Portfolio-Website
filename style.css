@@ -45,7 +45,9 @@ header h1{
 
 }
 
-header h1, ul{
+header h1,
+header ul,
+header a{
     background: -webkit-linear-gradient(#00f8f8, lightgreen);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
