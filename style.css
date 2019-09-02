@@ -22,7 +22,7 @@ header{
 
 header h1{
     font-size: 48px;
-    font-family: 'Brush Script MT', 'Shrikhand', cursive;
+    font-family: 'Brush Script MT', 'Oleo Script', cursive;
     width: 100%;
     text-align: center;
     
@@ -101,7 +101,7 @@ nav a:hover{
 }
 
 .container-1 h4{
-    font-family: 'Brush Script MT', 'Times New Roman', Times, serif;
+    font-family: 'Brush Script MT', 'Oleo Script', cursive;
     font-size: 26px;
 }
 
