@@ -55,7 +55,7 @@ header a{
 
 
 
-#nav{
+nav{
     display: none;
     width: 100%;
 }
@@ -70,13 +70,13 @@ ul{
     padding: 0;
 }
 
-#nav li {
+nav li {
     font-size: 17px;
     list-style: none;
     padding: 15px;
 }
 
-#nav a:hover{
+nav a:hover{
     background: -webkit-linear-gradient( lightgreen, #00f8f8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
